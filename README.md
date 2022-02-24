@@ -75,6 +75,8 @@ Através dessas informações, consegui desenvolver uma formula para fazer o cal
 
 ![formula cortada](https://user-images.githubusercontent.com/82240828/155482582-af3a3470-bd53-40d2-8b6a-3acad4729c7e.PNG)
 
+OBS: como o covid vai estar sempre espalhado por ai, foi adicionado um algoritimo para gerar casos casuais iguais a gripe.
+
 <p>&nbsp</p>
 
 # Executando o projeto
