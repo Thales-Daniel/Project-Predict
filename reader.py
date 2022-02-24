@@ -31,3 +31,5 @@ aleatory_negative_rate = [
     0.001,
     0.011,
 ]
+
+aleatory_casual_cases = [10, 20, 33, 2, 3, 13, 7, 27, 22, 12, 8, 10]
