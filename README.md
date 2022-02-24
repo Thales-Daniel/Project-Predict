@@ -17,6 +17,9 @@ Foram utilizadas 2 bibliotecas para auxiliar o desenvolvimento do projeto
 
 - [Instruções](#instruções)
 - [Entendendo o projeto](#entendendo-o-projeto)
+- [Executando o projeto](#executando-o-projeto)
+- [Proximos passos](#proximos-passos)
+- [Agradecimentos](#agradecimentos)
 
 ---
 
@@ -64,13 +67,29 @@ Dado D=4, teremos:
 Dado esse exemplo, foi utilizado os dados do repositorio [owid/covid](https://github.com/owid/covid-19-data) para criar um calculo de previsão.
 
 o calculo da previsão foi feita atraves do campo Reprodution_rate, onde esse campo contem a porcentagem
-de contaminação baseado nos casos de contaminação do dia.
+de contaminação baseado nos casos de contaminação do dia. Para não deixar o valor da estatico, verifiquei
+quais eram as taxas de variação que mais se repetiam e adicionei elas aleatoriamente ao valor da media, dando assim
+o valor que iriamos multiplicar pelo numero de casos do dia passado.
 
 Através dessas informações, consegui desenvolver uma formula para fazer o calculo dos novos casos logo a seguir:
 
 ![formula cortada](https://user-images.githubusercontent.com/82240828/155482582-af3a3470-bd53-40d2-8b6a-3acad4729c7e.PNG)
 
-
-
 <p>&nbsp</p>
+
+# Executando o projeto
+
+Seguindo as instruições e executando o projeto o resultado deve ser o seguinte:
+
+![executandoPredict](https://user-images.githubusercontent.com/82240828/155489643-cb89ffb4-9dc1-41f9-a358-4055bfc4f886.gif)
+
+# Proximos passos
+
+Caso o projeto tivesse uma duração maior, iria fazer a melhoria na logica utilizada na função, substituiria o "for" utilizado no arquivo predict.py por algo
+que seja menos complexo de ler. Alem disso, tentaria fazer uma formula mais coesa com a realidade, adicionando várias condições para casos de novas mutações na doença ou eventos incomuns.
+
+
+# Agradecimentos
+
+Queria agradecer a d3 por ter me dado a essa oportunidade, aprendi bastante com o projeto e pretendo aprender mais no futuro com os projetos seguintes.
 
