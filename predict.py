@@ -9,6 +9,8 @@ def predict(days):
     for index in range(1, days + 1):
         media_day += choice(aleatory_negative_rate)
         new_cases = cases_last_days * media_day
+        if new_cases < 0:
+            new_cases = 0
         string_result = f'{index} -> {round(new_cases)}'
         list_return.append(string_result)
         print(f'{index} -> {round(new_cases)}')
