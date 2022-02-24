@@ -66,6 +66,11 @@ Dado esse exemplo, foi utilizado os dados do repositorio [owid/covid](https://gi
 o calculo da previsão foi feita atraves do campo Reprodution_rate, onde esse campo contem a porcentagem
 de contaminação baseado nos casos de contaminação do dia.
 
+Através dessas informações, consegui desenvolver uma formula para fazer o calculo dos novos casos logo a seguir:
+
+![formula cortada](https://user-images.githubusercontent.com/82240828/155482582-af3a3470-bd53-40d2-8b6a-3acad4729c7e.PNG)
+
+
 
 <p>&nbsp</p>
 
