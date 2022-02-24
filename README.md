@@ -41,7 +41,7 @@ python3 -m venv .venv && source .venv/bin/activate
 ~~~
 Apos isso, instale as dependecias do projeto
 ~~~
-python3 -m pip install -r dev-requirements.txt
+python3 -m pip install -r requirements.txt
 ~~~
 Para fazer a execução do projeto, esteja na pasta do repositorio e utilize o comando no terminal
 ~~~
