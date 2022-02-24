@@ -33,7 +33,7 @@ git clone git@github.com:Thales-Daniel/d3-aplication.git
 ~~~
 Entre na pasta do repositorio que você acabou de clonar
 ~~~
-cd sd-012-project-job-insights
+cd d3-aplication/
 ~~~
 Logo em seguida, use o .venv para criar o ambiente virtual
 ~~~
