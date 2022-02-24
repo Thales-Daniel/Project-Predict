@@ -73,7 +73,7 @@ esse desvio, consegui chegar no valor da varição sem deixala aleatoria.
 
 Através dessas informações, consegui desenvolver uma formula para fazer o calculo dos novos casos logo a seguir:
 
-![formula cortada](https://user-images.githubusercontent.com/82240828/155482582-af3a3470-bd53-40d2-8b6a-3acad4729c7e.PNG)
+![formula](https://user-images.githubusercontent.com/82240828/155579714-c6846174-1097-4ac5-b19f-d975884df516.png)
 
 
 <p>&nbsp</p>
