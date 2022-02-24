@@ -1,6 +1,6 @@
 import csv
 
-with open('./main/owid-covid-data.csv') as file:
+with open('owid-covid-data.csv') as file:
     covid_data = csv.reader(file, delimiter=',', quotechar='-')
     header, *covid_data = covid_data
 
