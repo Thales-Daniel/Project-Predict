@@ -10,15 +10,15 @@ def predict(days):
         new_cases = reader.cases_last_days * media_day
         if new_cases < 0:
             new_cases = 0
-        string_result = f'{index} -> {round(new_cases)}'
+        string_result = f"{index} -> {round(new_cases)}"
         list_return.append(string_result)
-        print(f'{index} -> {round(new_cases)}')
+        print(f"{index} -> {round(new_cases)}")
     return list_return
 
 
-if __name__ == '__main__':
-    days = input('Numero de Dias: ')
+if __name__ == "__main__":
+    days = input("Numero de Dias: ")
     if days.isdigit() and int(days) > 0:
         predict(int(days))
     else:
-        print('Apenas numeros maiores que 0!!')
+        print("Apenas numeros maiores que 0!!")
