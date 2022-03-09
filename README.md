@@ -12,6 +12,7 @@ O propósito é criar uma previão baseada em dados de quantos casos de covid ir
 Foram utilizadas 2 bibliotecas para auxiliar o desenvolvimento do projeto 
   - `Flake8`
   - `Pytest`
+  - `Numpy`
 
 # Sumário
 
@@ -67,17 +68,12 @@ Dado D=4, teremos:
 Dado esse exemplo, foi utilizado os dados do repositorio [owid/covid](https://github.com/owid/covid-19-data) para criar um calculo de previsão.
 
 o calculo da previsão foi feita atraves do campo Reprodution_rate, onde esse campo contem a porcentagem
-de contaminação baseado nos casos de contaminação do dia. Para não deixar o valor da estatico, verifiquei
-quais eram as taxas de variação que mais se repetiam e adicionei elas aleatoriamente ao valor da media, dando assim
-o valor que iriamos multiplicar pelo numero de casos do dia passado.
+de contaminação baseado nos casos de contaminação do dia. Para calcular o desvio padrão, utilizei o Numpy, e com
+esse desvio, consegui chegar no valor da varição sem deixala aleatoria.
 
 Através dessas informações, consegui desenvolver uma formula para fazer o calculo dos novos casos logo a seguir:
 
-OBS: como o covid vai estar sempre espalhado por ai, foi adicionado um algoritimo para gerar casos casuais iguais a gripe para
-quando o covid ja estiver controlado.
-
-![formula cortada](https://user-images.githubusercontent.com/82240828/155482582-af3a3470-bd53-40d2-8b6a-3acad4729c7e.PNG)
-
+![formula](https://user-images.githubusercontent.com/82240828/155584731-d939f781-ee26-4c6f-9045-fd38e2646183.png)
 
 <p>&nbsp</p>
 
