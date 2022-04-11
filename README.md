@@ -28,11 +28,11 @@ Foram utilizadas 2 bibliotecas para auxiliar o desenvolvimento do projeto
 
 Inicie clonando o repositorio para sua máquina local 
 ~~~
-git clone git@github.com:Thales-Daniel/d3-aplication.git
+git clone git@github.com:Thales-Daniel/Project-Predict.git
 ~~~
 Entre na pasta do repositorio que você acabou de clonar
 ~~~
-cd d3-aplication/
+cd Project-Predict/
 ~~~
 Logo em seguida, use o .venv para criar o ambiente virtual
 ~~~
