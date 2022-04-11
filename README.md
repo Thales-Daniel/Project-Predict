@@ -19,8 +19,6 @@ Foram utilizadas 2 bibliotecas para auxiliar o desenvolvimento do projeto
 - [Instruções](#instruções)
 - [Entendendo o projeto](#entendendo-o-projeto)
 - [Executando o projeto](#executando-o-projeto)
-- [Proximos passos](#proximos-passos)
-- [Agradecimentos](#agradecimentos)
 
 ---
 
@@ -54,7 +52,7 @@ python3 predict.py
 
 # Entendendo o projeto
 
-O projeto tem como objetivo, prever os novos casos de covid dado um numero de dias
+O projeto foi pensado para praticar a linguagem Python e  tem como objetivo, prever os novos casos de covid dado um numero de dias
 
 O output da sua função precisa dizer o número de dias à frente (calculado por D) e seu respectivo valor de casos.
 
@@ -86,14 +84,3 @@ Seguindo as instruições e executando o projeto o resultado deve ser o seguinte
 caso seja inserido uma string ou um numero menor que zero, o resultado é o seguinte:
 
 ![errorAoExecutar](https://user-images.githubusercontent.com/82240828/155505154-cdb5b19f-cf07-4251-b1ca-3f0d666eebe5.gif)
-
-# Proximos passos
-
-Caso o projeto tivesse uma duração maior, iria fazer a melhoria na logica utilizada na função, substituiria o "for" utilizado no arquivo predict.py por algo
-que seja menos complexo de ler. Alem disso, tentaria fazer uma formula mais coesa com a realidade, adicionando várias condições para casos de novas mutações na doença ou eventos incomuns.
-
-
-# Agradecimentos
-
-Queria agradecer a d3 por ter me dado a essa oportunidade, aprendi bastante com o projeto e pretendo aprender mais no futuro com os projetos seguintes.
-
