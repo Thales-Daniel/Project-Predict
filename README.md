@@ -11,7 +11,6 @@ O propósito é criar uma previão baseada em dados de quantos casos de covid ir
 
 Foram utilizadas 2 bibliotecas para auxiliar o desenvolvimento do projeto 
   - `Flake8`
-  - `Pytest`
   - `Numpy`
 
 # Sumário
