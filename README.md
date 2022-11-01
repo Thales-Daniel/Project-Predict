@@ -17,6 +17,7 @@ Foram utilizadas 2 bibliotecas para auxiliar o desenvolvimento do projeto
 
 - [Instruções](#instruções)
 - [Entendendo o projeto](#entendendo-o-projeto)
+- [Executando o projeto](#executando-o-projeto)
 
 ---
 
@@ -72,3 +73,13 @@ Através dessas informações, consegui desenvolver uma formula para fazer o cal
 ![formula](https://user-images.githubusercontent.com/82240828/155584731-d939f781-ee26-4c6f-9045-fd38e2646183.png)
 
 <p>&nbsp</p>
+
+# Executando o projeto
+
+Seguindo as instruições e executando o projeto o resultado deve ser o seguinte:
+
+![executandoPredict](https://user-images.githubusercontent.com/82240828/155489643-cb89ffb4-9dc1-41f9-a358-4055bfc4f886.gif)
+
+caso seja inserido uma string ou um numero menor que zero, o resultado é o seguinte:
+
+![errorAoExecutar](https://user-images.githubusercontent.com/82240828/155505154-cdb5b19f-cf07-4251-b1ca-3f0d666eebe5.gif)
